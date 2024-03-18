@@ -1,0 +1,61 @@
+
+.titulo{
+    text-align: center;
+    margin: 20px;
+    color: rgb(153, 0, 255);
+}
+
+body{
+    background-image: url(./src/image/montanha.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.tabela{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+    cursor: pointer;
+}
+
+.nome{
+    background-color: rgb(134, 233, 247);
+    color: rgb(142, 77, 248);
+}
+
+.impar{
+    color: rgb(93, 4, 177);
+}
+
+th, td{
+    border: 1px solid rgb(247, 173, 250);
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: #d8d7d7;
+    color: rgb(6, 153, 158);
+}
+
+.segundo{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin: 100px;
+}
+
+.lista ol li{
+    margin: 25px;
+    text-decoration: none;
+    color: rgb(255, 255, 255); 
+    text-shadow: 5px 5px 3px rgb(253, 4, 4);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
